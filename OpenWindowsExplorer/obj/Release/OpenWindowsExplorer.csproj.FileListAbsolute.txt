@@ -1,0 +1,13 @@
+c:\users\dbitter\documents\visual studio 2017\Projects\OpenWindowsExplorer\bin\Release\OpenWindowsExplorer.exe.config
+c:\users\dbitter\documents\visual studio 2017\Projects\OpenWindowsExplorer\bin\Release\OpenWindowsExplorer.exe
+c:\users\dbitter\documents\visual studio 2017\Projects\OpenWindowsExplorer\bin\Release\OpenWindowsExplorer.pdb
+c:\users\dbitter\documents\visual studio 2017\Projects\OpenWindowsExplorer\obj\Release\OpenWindowsExplorer.csproj.CoreCompileInputs.cache
+c:\users\dbitter\documents\visual studio 2017\Projects\OpenWindowsExplorer\obj\Release\OpenWindowsExplorer.exe
+c:\users\dbitter\documents\visual studio 2017\Projects\OpenWindowsExplorer\obj\Release\OpenWindowsExplorer.pdb
+C:\Projects\OpenWindowsExplorer\bin\Release\OpenWindowsExplorer.exe.config
+C:\Projects\OpenWindowsExplorer\bin\Release\OpenWindowsExplorer.exe
+C:\Projects\OpenWindowsExplorer\bin\Release\OpenWindowsExplorer.pdb
+C:\Projects\OpenWindowsExplorer\obj\Release\OpenWindowsExplorer.csprojAssemblyReference.cache
+C:\Projects\OpenWindowsExplorer\obj\Release\OpenWindowsExplorer.csproj.CoreCompileInputs.cache
+C:\Projects\OpenWindowsExplorer\obj\Release\OpenWindowsExplorer.exe
+C:\Projects\OpenWindowsExplorer\obj\Release\OpenWindowsExplorer.pdb
