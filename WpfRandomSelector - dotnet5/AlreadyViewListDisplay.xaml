@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfRandomSelector.AlreadyViewListDisplay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfRandomSelector"
+        mc:Ignorable="d"
+        Title="Already Viewed List Display" Height="550" Width="605.836" Name="AlreadyViewedListDisplay" Icon="list 512.png"  >
+
+    <Grid Margin="10,10,2,-1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="420" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="105" />
+            <ColumnDefinition Width="450" />
+        </Grid.ColumnDefinitions>
+        <ListBox Name="ListboxViewedItems" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Height="420" VerticalAlignment="Top" Margin="0,0,-29,0"  SelectionMode="Multiple"/>
+        <Button Name="Delete" Grid.Column="0" Grid.Row="3" Content="Delete" Width="100" Margin="0,0,1,0" Click="Delete_Click"></Button>
+        <Button Name="Clear" Grid.Column="1" Grid.Row="3" Content="Clear" HorizontalAlignment="Left"  Width="100" Margin="10,0,1,0" Click="Clear_Click"></Button>
+        <Button Name="Refresh" Grid.Column="1" Grid.Row="3" Content="Refresh" HorizontalAlignment="Left" Width="100" Margin="130,0,1,0" Click="Refresh_Click"></Button>
+    </Grid>
+</Window>
