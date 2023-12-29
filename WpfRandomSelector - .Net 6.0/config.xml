@@ -1,0 +1,10 @@
+<config>
+<startingDirectory>C:\img\</startingDirectory>
+<startingDirectoryList>
+C:\img\1,
+C:\img\2</startingDirectoryList>
+<excludeDirectoryList>archive,old,@archive,@lists,@archive</excludeDirectoryList>
+<useMinimumFileCount>false</useMinimumFileCount>
+<minimumFileCount>1</minimumFileCount>
+<tempImagePath>C:\img\temp</tempImagePath>
+</config>
