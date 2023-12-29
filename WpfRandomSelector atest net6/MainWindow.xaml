@@ -1,0 +1,64 @@
+﻿<Window x:Class="WpfRandomSelector.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfRandomSelector"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="367" Width="822.418" WindowStartupLocation="CenterScreen" 
+        Closing="Window_Closing"
+        ResizeMode="NoResize">
+    <Grid Margin="0,0,4,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="55" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="200" />
+
+        </Grid.ColumnDefinitions>
+
+        <!-- Column 1-->
+        <Label  Grid.Column="1" Grid.Row="0" Content="Current Parent Folder:" HorizontalAlignment="Center"/>
+        <Label  Grid.Column="1" Grid.Row="1" Content="Current Item Selected:" HorizontalAlignment="Center"/>
+        <RadioButton  Grid.Column="1" Grid.Row="3" Name="RbFolder"  Content="Folder"  HorizontalAlignment="Left" Margin="35,1,0,0" VerticalAlignment="Center" IsChecked="True" Click="RbFolderFile_Click"/>
+        <RadioButton  Grid.Column="1" Grid.Row="3" Name="RbFile" Content="File" HorizontalAlignment="Right" Margin="0,0,35,0" VerticalAlignment="Center" Click="RbFolderFile_Click"/>
+        <ComboBox Grid.Column="1" Grid.Row="5" Name="CmbFolderList"  Width="200"  SelectionChanged="cmbFolderList_SelectionChanged" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Background="#FFEA7E7E" Style="{DynamicResource ComboBoxStyle1}"></ComboBox>
+        <Button Grid.Column="1" Grid.Row="6" Name="BtnSetParentFolder" MouseDoubleClick="BtnSetParentFolder_Click" Background="#FF977BD5" Width="200" >Set Folder</Button>
+        <Button Grid.Column="1" Grid.Row="7" Name="BtnSelectItem" Click="SelectItem_Click" Background="#FF94C591" Width="200">Select Item</Button>
+        <!-- Column 2-->
+        <Label Grid.Column="2" Grid.Row="0" Name="LblParentFolder" Content="No Parent Folder Set" Grid.ColumnSpan="5"/>
+        <Label Grid.Column="2" Grid.Row="1" Name="LblSelectedItem" Content="No Item Selected" Grid.ColumnSpan="5" />
+        <CheckBox Grid.Column = "2" Grid.Row="2" VerticalAlignment="Center" Content="Use Minimum Item Count" Name="ChkUseMinimumCount" Click="ChkUseMinimumCount_OnClick" Margin="5,0,0,0"></CheckBox>
+        <CheckBox Grid.Column = "2" Grid.Row="3" VerticalAlignment="Center" Content="Automatically Add To List" Name="ChkAutomaticallyAddItemToList" Click="ChkAutomaticallyAddItemToList_OnClick" Margin="5,0,0,0"></CheckBox>
+
+        <!-- Column 2 and 3 -->
+        <Button Grid.Column="2" Grid.Row="4" Name="RerandomizeCurrentImageItem" Content="Re-Randomize Current Image Item" Click="RerandomizeCurrentImageItem_Click"  
+                Height="50" Width ="200" VerticalAlignment="Bottom" Background="#FF3675E2"  Grid.ColumnSpan="2" />
+        <Button Grid.Column="2" Grid.Row="5" Name="LoadItemListFromXML" Content="Load Item List from XML" Click="LoadItemListFromXML_Click" Width ="200" Background="#FFE6DC0B" Grid.ColumnSpan="2" />
+        <Button Grid.Column="2" Grid.Row="6" Name="ManuallyLoadDirectory" Content="Manually Load Image Directory" Click="ManuallyLoadDirectory_Click" Width ="200" Background="#FF1F8715" Grid.ColumnSpan="2"/>
+        <Button Grid.Column="2" Grid.Row="7" Name="OpenSelectedDirectory" Content="Open Selected Item Directory" Click="OpenSelectedDirectory_Click"  Width ="200" Background="#FFA69372" Grid.ColumnSpan="2"/>
+
+        <!-- Column 3-->
+        <Label Grid.Column="3" Grid.Row="2" Name="LblMinimumCount" Content="Minimum Count" Width="100" HorizontalAlignment="Left"/>
+        <TextBox Grid.Column="3" Grid.Row="2" Name="TxtMinimumFileCount" Width="60" Height="20" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,10,0" TextChanged="TxtMinimumFileCount_TextChanged"></TextBox>
+
+        <!-- Column 4-->
+        <Button Grid.Column="4" Grid.Row="3" Name="BtnViewAlreadyViewedList" Content="View Already Viewed List" Width ="200" Background="#FFA04343" 
+                Click="ViewAlreadyViewedList_OnClick" Grid.RowSpan="2" Height="51" VerticalAlignment="Bottom"/>
+        <Button Grid.Column="4" Grid.Row="5" Name="AddCurrentItemToAlreadyViewedList" Content="Add Current Item to Viewed List" Width ="200" Background="#FF7BD5B8" Click="AddCurrentItemToAlreadyViewedList_Click"/>
+        <Button Grid.Column="4" Grid.Row="6" Name="RefreshList" Content="Refresh list" Width ="200" Click="RefreshList_OnClick" Background="#FFE0A379"/>
+        <Button Grid.Column="4" Grid.Row="7" Name="ReLoadCurrentItem" Content="Reload Current Item" Width ="200" Click="ReLoadCurrentItem_OnClick" Background="#FF878787" />
+
+    </Grid>
+</Window>
