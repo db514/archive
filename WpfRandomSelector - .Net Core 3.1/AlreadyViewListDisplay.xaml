@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfRandomSelector.AlreadyViewListDisplay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfRandomSelector"
+        mc:Ignorable="d"
+        Title="Already Viewed List Display" Height="450" Width="600" Name="AlreadyViewedListDisplay"  >
+
+    <Grid Margin="10,10,2,-1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="420" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="550" />
+        </Grid.ColumnDefinitions>
+        <ListBox Name="ListboxViewedItems" Grid.Column="0" Grid.Row="1"  Height="370" VerticalAlignment="Top" Margin="0,0,-29,0" />
+    </Grid>
+</Window>
