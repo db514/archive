@@ -1,0 +1,35 @@
+To embedd dlls into exe
+
+Install the Costura.Fody NuGet package and update the Fody NuGet package:
+
+PM> Install-Package Fody
+PM> Install-Package Costura.Fody
+
+The Install-Package Fody is required since NuGet always defaults to the oldest, and most buggy, version of any dependency.
+
+
+How it works
+Merge assemblies as embedded resources
+
+This approach uses a combination of two methods
+
+    Jeffrey Richter's suggestion of using embedded resources as a method of merging assemblies
+    Einar Egilsson's suggestion using cecil to create module initializers
+
+Details
+
+This Task performs the following changes
+
+    Take all assemblies (and pdbs) that have been marked as "Copy Local" and embed them as resources in the target assembly.
+    Injects the following code into the module initializer of the target assembly. This code will be called when the assembly is loaded into memory
+
+eg
+
+static <Module>()
+{
+    ILTemplate.Attach();
+}
+
+    Injects the following class into the target assembly. This means if an assembly load fails it will be loaded from the embedded resources.
+        ILTemplate.cs
+        ILTemplateWithTempAssembly.cs
