@@ -1,0 +1,27 @@
+﻿<Window x:Class="DirectoryListing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DirectoryListing"
+        mc:Ignorable="d"
+        Title="Directory Listing Application" Height="200" Width="515">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250" />
+            <ColumnDefinition Width="250" />
+        </Grid.ColumnDefinitions>
+        <Button Grid.Column="0" Grid.Row="1" Name="BtnSetParentFolder" Click="BtnSetParentFolder_Click" Background="#FFA8C6E3" >Select single folder to list</Button>
+        <Button Grid.Column="0" Grid.Row="2" Name="BtnSaveListing" Click="BtnSaveListing_Click"  Background="#FF94C591" >Save output file for listing</Button>
+        <Button Grid.Column="0" Grid.Row="3" Name="BtnCreateListings" Click="BtnCreateListings_Click" Background="#FFE3A8B8" Content="Create Default Listings"  />
+
+    </Grid>
+</Window>

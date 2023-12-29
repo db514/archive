@@ -1,0 +1,30 @@
+C:\Users\doug.bitter\Documents\Visual Studio 2017\Projects\DirectoryListing\obj\Debug\DirectoryListing.csprojAssemblyReference.cache
+C:\Users\doug.bitter\Documents\Visual Studio 2017\Projects\DirectoryListing\obj\Debug\MainWindow.g.cs
+C:\Users\doug.bitter\Documents\Visual Studio 2017\Projects\DirectoryListing\obj\Debug\App.g.cs
+C:\Users\doug.bitter\Documents\Visual Studio 2017\Projects\DirectoryListing\obj\Debug\DirectoryListing_MarkupCompile.cache
+C:\Users\doug.bitter\Documents\Visual Studio 2017\Projects\DirectoryListing\obj\Debug\DirectoryListing_MarkupCompile.lref
+C:\Users\doug.bitter\Documents\Visual Studio 2017\Projects\DirectoryListing\bin\Debug\DirectoryListing.exe.config
+C:\Users\doug.bitter\Documents\Visual Studio 2017\Projects\DirectoryListing\bin\Debug\DirectoryListing.exe
+C:\Users\doug.bitter\Documents\Visual Studio 2017\Projects\DirectoryListing\bin\Debug\DirectoryListing.pdb
+C:\Users\doug.bitter\Documents\Visual Studio 2017\Projects\DirectoryListing\obj\Debug\MainWindow.baml
+C:\Users\doug.bitter\Documents\Visual Studio 2017\Projects\DirectoryListing\obj\Debug\DirectoryListing.g.resources
+C:\Users\doug.bitter\Documents\Visual Studio 2017\Projects\DirectoryListing\obj\Debug\DirectoryListing.Properties.Resources.resources
+C:\Users\doug.bitter\Documents\Visual Studio 2017\Projects\DirectoryListing\obj\Debug\DirectoryListing.csproj.GenerateResource.cache
+C:\Users\doug.bitter\Documents\Visual Studio 2017\Projects\DirectoryListing\obj\Debug\DirectoryListing.csproj.CoreCompileInputs.cache
+C:\Users\doug.bitter\Documents\Visual Studio 2017\Projects\DirectoryListing\obj\Debug\DirectoryListing.exe
+C:\Users\doug.bitter\Documents\Visual Studio 2017\Projects\DirectoryListing\obj\Debug\DirectoryListing.pdb
+C:\Projects\DirectoryListing\bin\Debug\DirectoryListing.exe.config
+C:\Projects\DirectoryListing\bin\Debug\DirectoryListing.exe
+C:\Projects\DirectoryListing\bin\Debug\DirectoryListing.pdb
+C:\Projects\DirectoryListing\obj\Debug\MainWindow.g.cs
+C:\Projects\DirectoryListing\obj\Debug\App.g.cs
+C:\Projects\DirectoryListing\obj\Debug\DirectoryListing_MarkupCompile.cache
+C:\Projects\DirectoryListing\obj\Debug\DirectoryListing_MarkupCompile.lref
+C:\Projects\DirectoryListing\obj\Debug\MainWindow.baml
+C:\Projects\DirectoryListing\obj\Debug\DirectoryListing.g.resources
+C:\Projects\DirectoryListing\obj\Debug\DirectoryListing.Properties.Resources.resources
+C:\Projects\DirectoryListing\obj\Debug\DirectoryListing.csproj.GenerateResource.cache
+C:\Projects\DirectoryListing\obj\Debug\DirectoryListing.csproj.CoreCompileInputs.cache
+C:\Projects\DirectoryListing\obj\Debug\DirectoryListing.exe
+C:\Projects\DirectoryListing\obj\Debug\DirectoryListing.pdb
+C:\Projects\DirectoryListing\obj\Debug\DirectoryListing.csproj.AssemblyReference.cache
