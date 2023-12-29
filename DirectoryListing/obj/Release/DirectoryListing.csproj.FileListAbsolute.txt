@@ -1,0 +1,15 @@
+C:\Projects\DirectoryListing\bin\Release\DirectoryListing.exe.config
+C:\Projects\DirectoryListing\bin\Release\DirectoryListing.exe
+C:\Projects\DirectoryListing\bin\Release\DirectoryListing.pdb
+C:\Projects\DirectoryListing\obj\Release\DirectoryListing.csprojAssemblyReference.cache
+C:\Projects\DirectoryListing\obj\Release\MainWindow.g.cs
+C:\Projects\DirectoryListing\obj\Release\App.g.cs
+C:\Projects\DirectoryListing\obj\Release\DirectoryListing_MarkupCompile.cache
+C:\Projects\DirectoryListing\obj\Release\DirectoryListing_MarkupCompile.lref
+C:\Projects\DirectoryListing\obj\Release\MainWindow.baml
+C:\Projects\DirectoryListing\obj\Release\DirectoryListing.g.resources
+C:\Projects\DirectoryListing\obj\Release\DirectoryListing.Properties.Resources.resources
+C:\Projects\DirectoryListing\obj\Release\DirectoryListing.csproj.GenerateResource.cache
+C:\Projects\DirectoryListing\obj\Release\DirectoryListing.csproj.CoreCompileInputs.cache
+C:\Projects\DirectoryListing\obj\Release\DirectoryListing.exe
+C:\Projects\DirectoryListing\obj\Release\DirectoryListing.pdb
