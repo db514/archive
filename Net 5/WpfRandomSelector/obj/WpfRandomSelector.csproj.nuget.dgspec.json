@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\.Net 5\\WpfRandomSelector\\WpfRandomSelector.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\.Net 5\\WpfRandomSelector\\WpfRandomSelector.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\.Net 5\\WpfRandomSelector\\WpfRandomSelector.csproj",
+        "projectName": "WpfRandomSelector",
+        "projectPath": "C:\\Projects\\.Net 5\\WpfRandomSelector\\WpfRandomSelector.csproj",
+        "packagesPath": "C:\\Users\\Doug\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\.Net 5\\WpfRandomSelector\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Doug\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net5.0-windows",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
